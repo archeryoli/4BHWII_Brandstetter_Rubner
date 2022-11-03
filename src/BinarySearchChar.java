@@ -2,7 +2,7 @@ public class BinarySearchChar {
     public static void main(String[] args) {
         char[] charArrayToSearch = {'a', 'b','f', 'j', 'p', 't','w','y','z'};
 
-        int result = binarySearch(charArrayToSearch, 'A', 0, charArrayToSearch.length - 1);
+        int result = binarySearch(charArrayToSearch, 'p', 0, charArrayToSearch.length - 1);
         System.out.println(result);
     }
     private static int binarySearch(char[] arrayToSearch, char elementToSearch, int start, int end){

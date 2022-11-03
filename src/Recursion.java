@@ -11,8 +11,8 @@ public class Recursion {
         return sum;
     }
     public static int sumRecursive(int x){
-        if(x == 0){
-            return 0;
+        if(x == 1 || x == 0){
+            return x;
         }
         return sumRecursive(x - 1) + x;
     }
