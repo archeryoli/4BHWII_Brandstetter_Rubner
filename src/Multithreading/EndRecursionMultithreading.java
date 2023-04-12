@@ -38,6 +38,6 @@ public class EndRecursionMultithreading {
         }
         System.out.println("Total execution time: " + (endTime - startTime));
 
-        System.out.println(prod);     
+        // System.out.println(prod);     
     }
 }
